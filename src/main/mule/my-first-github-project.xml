@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="my-first-github-projectFlow" doc:id="c94efd5b-bafa-4e12-9115-57f9c3a65033" >
 		<http:listener doc:name="Listener" doc:id="285c06e3-5a52-471f-9349-35b91b7bcf62" config-ref="HTTP_Listener_config" path="/test"/>
 		<set-payload value='My first git hub -- "ravi"' doc:name="Set Payload" doc:id="1ad51138-4edb-4723-b729-78a263b1bb63" />
-		<logger level="INFO" doc:name="Logger" doc:id="98903794-8d5f-4b41-b3c1-872d0f90d64d" message='"Hello world" -- "welcome"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="98903794-8d5f-4b41-b3c1-872d0f90d64d" message='"Hello world" -- "welcome".'/>
 	</flow>
 </mule>
